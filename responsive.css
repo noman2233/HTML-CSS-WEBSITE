@@ -1,0 +1,63 @@
+ @media screen and (max-width: 1000px) {
+    .navbar{
+        flex-direction: column;
+    }
+     nav ul li a{
+       padding: 0px 5px;
+    }
+    nav ul{
+        margin: 26px 5px;
+    }
+    .container {
+        background: radial-gradient(#fff,#f1caca);
+        height: 662px;
+    }
+    .container .col-1 p{
+        display: none;
+    }
+
+ .row-main .col-1 img{
+   width: 200px;
+ }
+ .row-main .col-1{
+    margin: 83px -24px;;
+ }
+
+ .container-offer {
+    background: radial-gradient(#fff,#f1caca);
+    height: 345px
+}
+
+.container-offer .col-1 img{
+width: 200px;
+margin-left:0px ;
+}
+.row-offer .col-1{
+margin: 86px -6px;
+}
+
+.row-offer .col-1 h1,small{
+display: none;
+}
+.btn{
+    padding: 10px 5px;
+    background-color: rgba(180, 86, 9, 0.849);
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer; 
+}
+ 
+.row-2{
+    height: 600px;
+}
+
+.a-image img{
+    width: 300px;
+}
+.row-about{
+    flex-wrap: wrap;
+}
+.row-about img{
+    margin: auto ;
+}
+}  
